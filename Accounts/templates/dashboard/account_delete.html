@@ -1,0 +1,10 @@
+﻿{%extends 'base.html'%}
+
+{%block content%}
+        <form method="POST">
+            {%csrf_token%}
+            <button class="btn btn-danger" style=" position :absolute; margin : 0 auto; margin-top : 25%">Delete Account permanently</button>
+        </form>
+       <p style="position :absolute; margin-top : 30%;text-align: center;width: 100%;">Note that this will permanently delete your Account from our database</p>
+
+{%endblock%}
